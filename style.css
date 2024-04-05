@@ -1,0 +1,192 @@
+/* Write some CSS below */
+body{
+ 
+    margin: 0;
+ 
+}
+ 
+.Banner{
+ 
+    background-image:url(images/Design\ sans\ titre\ 11.png);
+ 
+    background-position: center;
+ 
+    background-size: cover;
+ 
+    color: black;
+ 
+    text-align: center;
+ 
+    padding: 150px 0;
+ 
+}
+ 
+ 
+ 
+header{
+ 
+    box-sizing: border-box;
+ 
+   
+ 
+}
+ 
+.Banner h1{
+ 
+    font-size: 64px;
+ 
+    font-weight: 900;
+ 
+}
+ 
+ 
+ 
+.Banner p{
+ 
+    font-size: 32px;
+ 
+}
+ 
+ 
+ 
+.btn-pink {
+    text-decoration: none;
+    border-radius: 4px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    background-color: rgb(168, 116, 116);
+    padding: 15px 25px;
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+    transition: background-color 0.3s; /* Ajouté pour une transition fluide */
+}
+
+.btn-pink:hover {
+    background-color: yellow; /* Changement de couleur au survol */
+}
+
+ 
+.container {
+    background-color: #fff; /
+    width: 80%;
+    margin: 20px auto; 
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+    border-radius: 8px; 
+}
+
+.title {
+    text-align: center; 
+    font-size: 32px; 
+    margin: 40px 0;
+}
+.video-container video {
+    width: 100%;
+    height: auto;
+}
+
+.section {
+    margin-bottom: 15px;
+}
+
+.section-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.section-content {
+    text-align: justify;
+}
+.container {
+ 
+    margin: 40px auto;
+ 
+    width: 900px;
+ 
+    text-align: center;
+ 
+}
+ 
+ 
+ 
+.card {
+ 
+    box-shadow: 0 10px 20px rgba(0, 0,0,0.1);
+ 
+    padding: 20px;
+ 
+    border-radius: 4px;
+ 
+    margin: 30px 10px;
+ 
+}
+ 
+ 
+ 
+.card img {
+ 
+    border-radius: 4px;
+ 
+    width: 100%;
+ 
+    height: 150px;
+ 
+    object-fit: cover;
+ 
+}
+ 
+.Cards{
+ 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 16px;
+ 
+}
+.discover-btn {
+    display: inline-block; 
+    background-color: #FFC0CB; 
+    color: white; 
+    padding: 10px 20px;
+    border-radius: 5px; 
+    text-decoration: none; 
+    font-weight: bold; 
+    transition: background-color 0.3s; /* Transition fluide pour le changement de couleur */
+}
+
+.discover-btn:hover {
+    background-color: yellow; 
+    color: black; 
+}
+ 
+footer {
+    background-color: #fff; 
+    padding: 20px 0; 
+    text-align: center; 
+}
+
+.footer {
+    background-color: #FFC0CB; 
+    padding: 20px 0; 
+    text-align: center; 
+    position: fixed; 
+    bottom: 0; 
+    left: 0; 
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.1); 
+}
+
+.cta-text {
+    color: black; 
+    font-weight: bold; 
+    font-size: 20px; 
+    margin: 0 0 10px; 
+}
+
+.social-icons a {
+    font-size: 24px; 
+    margin: 0 5px; 
+    color: inherit; 
+    text-decoration: none; 
+}
+</body>
+</html>
